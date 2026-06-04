@@ -29,7 +29,6 @@ public class FeedbackServlet extends HttpServlet {
 
     	String name = request.getParameter("name");
 
-        System.out.println();
     	String email = request.getParameter("email");
 
     	String message = request.getParameter("message");
