@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+System.out.println("Hello");
+
 @WebServlet("/feedback")
 public class FeedbackServlet extends HttpServlet {
 
