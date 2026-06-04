@@ -14,13 +14,21 @@ import javax.servlet.http.HttpServletResponse;
 
 
 
+
+
+
 @WebServlet("/feedback")
 public class FeedbackServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response)
             throws ServletException, IOException {
+
         String name = request.getParameter("name");
+
+
+    	String name = request.getParameter("name");
+
         System.out.println();
     	String email = request.getParameter("email");
 
