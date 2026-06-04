@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-System.out.println("Hello");
+
 
 @WebServlet("/feedback")
 public class FeedbackServlet extends HttpServlet {
@@ -20,9 +20,8 @@ public class FeedbackServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response)
             throws ServletException, IOException {
-
-    	String name = request.getParameter("name");
-
+        String name = request.getParameter("name");
+        System.out.println();
     	String email = request.getParameter("email");
 
     	String message = request.getParameter("message");
