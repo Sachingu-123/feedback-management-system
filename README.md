@@ -14,7 +14,7 @@ The project helped me understand real-world backend development concepts such as
 
 # 🚀 Technologies Used
 
-* Core Java
+* Java
 * JSP (Java Server Pages)
 * Servlets
 * JDBC
